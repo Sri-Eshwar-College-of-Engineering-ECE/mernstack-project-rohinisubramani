@@ -1,0 +1,61 @@
+/* Global Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f4f6;
+}
+
+/* Smooth Scroll */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+}
+
+/* Buttons */
+
+button {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Inputs */
+
+input,
+select,
+textarea {
+  outline: none;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2563eb;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e5e7eb;
+}
+
+/* Dark Mode */
+
+.dark {
+  background-color: #111827;
+  color: white;
+}
